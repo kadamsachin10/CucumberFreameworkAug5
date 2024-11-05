@@ -63,6 +63,7 @@ String login="Login";
 
 public void login()
 {
+    System.out.println("hello");
    username.sendKeys("admin");
     password.sendKeys("admin");
     login.click();
